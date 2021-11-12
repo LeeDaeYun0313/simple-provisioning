@@ -21,7 +21,7 @@
       tags:
         Name: "{{vpc_name}}"
       tenancy: default
-    register: result_vpc  //vpcid를 쓰는 항목이있는데 
+    register: result_vpc  #vpcid를 쓰는 항목이있는데 
     
   - name: Create subnet 
     ec2_vpc_subnet:
